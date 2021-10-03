@@ -24,7 +24,7 @@
 
 @media screen and (max-width: 750px) {
     .container-button > input {
-        width: 75px;
+        width: 85px;
         height: 36px;
         font-size: 16px;
     }
@@ -32,7 +32,7 @@
 
 @media screen and (max-width: 600px) {
     .container-button > input {
-        width: 70px;
+        width: 80px;
         height: 34px;
         font-size: 16px;
     }
@@ -40,16 +40,16 @@
 
 @media screen and (max-width: 450px) {
     .container-button > input {
-        width: 60px;
-        height: 24px;
+        width: 70px;
+        height: 25px;
         font-size: 14px;
     }
 }
 
 @media screen and (max-width: 350px) {
     .container-button > input {
-        width: 44px;
-        height: 20px;
+        width: 54px;
+        height: 25px;
         font-size: 11px;
     }
 }
