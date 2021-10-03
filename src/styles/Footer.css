@@ -1,5 +1,5 @@
 .container-footer {
-    height: 30%;
+    height: 24%;
     margin: auto;
     width: 100%;
     background-color: #1F1F1F;
@@ -44,7 +44,7 @@
     margin-bottom: 5px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
     .container-contatos {
         max-width: 100%;
         min-height: 65vh;
@@ -113,14 +113,14 @@
         min-height: 45vh;
     }
     .nav-footer > a {
-        font-size: 11px;
-        margin: 10px;
+        font-size: 9px;
+        margin: 7px;
     }    
     .box-follow > h2 {
         font-size: 11px;
     }
     .box-follow > a > svg {
-        width: 16px;
+        width: 15px;
         height: 16px;
     }
     .by-footer:nth-child(3) {

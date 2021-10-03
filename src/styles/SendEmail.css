@@ -36,15 +36,6 @@
     font-size: 20px;
 }
 
-@media screen and (max-width: 1150px) {
-    .container-email {
-        width: 300px;
-        height: 280px;
-        position: absolute;
-        top: 240px;
-    }    
-}
-
 @media screen and (max-width: 1000px) {
     .container-email {
         width: 300px;
@@ -124,6 +115,27 @@
     .container-email > div > textarea {
         width: 270px;
         height: 100px;
+        font-size: 12px;
+        margin: 5px;
+    }   
+}
+
+@media screen and (max-width: 350px) {
+    .container-email {
+        width: 290px;
+        height: 300px;
+        position: absolute;
+        top: 50px;
+    }
+    .container-email > div > input {
+        width: 230px;
+        height: 20px;
+        font-size: 12px;
+        margin: 5px;
+    }    
+    .container-email > div > textarea {
+        width: 230px;
+        height: 80px;
         font-size: 12px;
         margin: 5px;
     }   

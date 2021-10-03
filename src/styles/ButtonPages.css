@@ -45,3 +45,11 @@
         font-size: 14px;
     }
 }
+
+@media screen and (max-width: 350px) {
+    .container-button > input {
+        width: 44px;
+        height: 20px;
+        font-size: 11px;
+    }
+}

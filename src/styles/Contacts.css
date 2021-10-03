@@ -1,7 +1,7 @@
 .container-contacts {
     margin: auto;
     max-width: 90%;
-    min-height: 120vh;
+    min-height: 130vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
