@@ -14,7 +14,7 @@
 @media screen and (max-width: 1150px) {
     .container-contacts {
         max-width: 90%;
-        min-height: 88vh;
+        min-height: 90vh;
     }    
 } 
 
@@ -27,14 +27,7 @@
 
 @media screen and (max-width: 750px) {
     .container-contacts {
-        max-width: 90%;
-        min-height: 80vh;
+        max-width: 100%;
+        min-height: 100vh;
     }    
 } 
-
-@media screen and (max-width: 600px) {
-    .container-contacts {
-        max-width: 100%;
-        min-height: 70vh;
-    }
-}

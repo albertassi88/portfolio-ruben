@@ -59,8 +59,6 @@
     .container-email {
         width: 300px;
         height: 280px;
-        position: absolute;
-        top: 160px;
     }
     .container-email > div > input {
         width: 350px;
@@ -80,8 +78,6 @@
     .container-email {
         width: 300px;
         height: 280px;
-        position: absolute;
-        top: 120px;
     }
     .container-email > div > input {
         width: 300px;

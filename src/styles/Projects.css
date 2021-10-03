@@ -83,8 +83,7 @@
         padding: 2.6%;
     } 
     .box-project > img {
-        width: 100%;
-        height: 25vw;
+        width: 35vw;
     }
 }
 
@@ -115,7 +114,7 @@
         padding: 2.6%;
     } 
     .box-project > img {
-        width: 100%;
+        width: 40vw;
     }
 }
 
