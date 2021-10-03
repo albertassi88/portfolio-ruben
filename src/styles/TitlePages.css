@@ -56,9 +56,9 @@
 
 @media screen and (max-width: 450px) {
     .container-title > h1 {
-        font-size: 11vw;
+        font-size: 12vw;
     }    
     .container-title > h2 {
-        font-size: 7vw;
+        font-size: 8vw;
     }
 }

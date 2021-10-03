@@ -40,8 +40,6 @@
     .container-email {
         width: 300px;
         height: 280px;
-        position: absolute;
-        top: 160px;
     }
     .container-email > div > input {
         width: 400px;
@@ -103,8 +101,6 @@
     .container-email {
         width: 290px;
         height: 300px;
-        position: absolute;
-        top: 50px;
     }
     .container-email > div > input {
         width: 270px;
@@ -120,23 +116,3 @@
     }   
 }
 
-@media screen and (max-width: 350px) {
-    .container-email {
-        width: 290px;
-        height: 300px;
-        position: absolute;
-        top: 50px;
-    }
-    .container-email > div > input {
-        width: 230px;
-        height: 20px;
-        font-size: 12px;
-        margin: 5px;
-    }    
-    .container-email > div > textarea {
-        width: 230px;
-        height: 80px;
-        font-size: 12px;
-        margin: 5px;
-    }   
-}

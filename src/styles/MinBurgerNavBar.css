@@ -100,25 +100,14 @@ span {
 @media screen and (max-width: 450px) {
     .navbar {
         display: flex;
-        height: 4vh;
     }
     .menu-bars {
         display: flex;
-        margin-top: 2rem;
+        margin-top: 3rem;
         margin-left: 2rem;
-        font-size: 1.4rem;
+        font-size: 6vw;
     }
     .nav-text a { 
         font-size: 13px;
     }    
-}
-
-
-@media screen and (max-width: 330px) {
-    .menu-bars {
-        font-size: 1.1rem;
-    }
-    .nav-text {
-        height: 50px;
-    } 
 }
