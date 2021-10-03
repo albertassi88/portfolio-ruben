@@ -36,6 +36,15 @@
     font-size: 20px;
 }
 
+@media screen and (max-width: 1150px) {
+    .container-email {
+        width: 300px;
+        height: 280px;
+        position: absolute;
+        top: 240px;
+    }    
+}
+
 @media screen and (max-width: 1000px) {
     .container-email {
         width: 300px;
