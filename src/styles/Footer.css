@@ -1,0 +1,129 @@
+.container-footer {
+    height: 30%;
+    margin: auto;
+    width: 100%;
+    background-color: #1F1F1F;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.nav-footer > a {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 22px;
+    margin: 10px;
+}
+
+.box-follow > h2 {
+    font-size: 22px;
+    color: white;
+}
+
+.box-follow > a > svg {
+    margin: 15px;
+    color: white;
+    width: 25px;
+    height: 25px;
+}
+
+.box-follow > a > svg:hover {
+    color: #7F5AF0;
+}
+
+.by-footer:nth-child(3) {
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width: 1000px) {
+    .container-contatos {
+        max-width: 100%;
+        min-height: 65vh;
+    }
+    .nav-footer > a {
+        font-size: 16px;
+        margin: 10px;
+    }    
+    .box-follow > h2 {
+        font-size: 14px;
+    }
+    .box-follow > a > svg {
+        width: 20px;
+        height: 20px;
+    }
+    .by-footer:nth-child(3) {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .container-contatos {
+        max-width: 100%;
+        min-height: 65vh;
+    }
+    .nav-footer > a {
+        font-size: 16px;
+        margin: 10px;
+    }    
+    .box-follow > h2 {
+        font-size: 14px;
+    }
+    .box-follow > a > svg {
+        width: 20px;
+        height: 20px;
+    }
+    .by-footer:nth-child(3) {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container-contatos {
+        max-width: 100%;
+        min-height: 55vh;
+    }
+    .nav-footer > a {
+        font-size: 14px;
+        margin: 10px;
+    }    
+    .box-follow > h2 {
+        font-size: 13px;
+    }
+    .box-follow > a > svg {
+        width: 18px;
+        height: 18px;
+    }
+    .by-footer:nth-child(3) {
+        font-size: 7px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .container-contatos {
+        max-width: 100%;
+        min-height: 45vh;
+    }
+    .nav-footer > a {
+        font-size: 11px;
+        margin: 10px;
+    }    
+    .box-follow > h2 {
+        font-size: 11px;
+    }
+    .box-follow > a > svg {
+        width: 16px;
+        height: 16px;
+    }
+    .by-footer:nth-child(3) {
+        font-size: 5px;
+    }
+}

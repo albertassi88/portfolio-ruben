@@ -1,0 +1,121 @@
+.container-email {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.container-email > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 5px;
+}
+
+.container-email > div > input {
+    width: 550px;
+    height: 40px;
+    font-size: 25px;
+    margin: 5px;
+}
+
+.container-email > div > textarea {
+    font-size: 25px;
+    width: 550px;
+    height: 160px;
+    margin: 5px;
+}
+
+.valid-message {
+    color: red;
+    align-self: center;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    .container-email {
+        width: 300px;
+        height: 280px;
+        position: absolute;
+        top: 160px;
+    }
+    .container-email > div > input {
+        width: 400px;
+        height: 30px;
+        font-size: 18px;
+        margin: 5px;
+    }    
+    .container-email > div > textarea {
+        width: 400px;
+        height: 160px;
+        font-size: 18px;
+        margin: 5px;
+    }    
+}
+
+@media screen and (max-width: 750px) {
+    .container-email {
+        width: 300px;
+        height: 280px;
+        position: absolute;
+        top: 160px;
+    }
+    .container-email > div > input {
+        width: 350px;
+        height: 30px;
+        font-size: 18px;
+        margin: 5px;
+    }    
+    .container-email > div > textarea {
+        width: 350px;
+        height: 140px;
+        font-size: 18px;
+        margin: 5px;
+    }    
+}
+
+@media screen and (max-width: 600px) {
+    .container-email {
+        width: 300px;
+        height: 280px;
+        position: absolute;
+        top: 120px;
+    }
+    .container-email > div > input {
+        width: 300px;
+        height: 30px;
+        font-size: 15px;
+        margin: 5px;
+    }    
+    .container-email > div > textarea {
+        width: 300px;
+        height: 140px;
+        font-size: 15px;
+        margin: 5px;
+    }    
+}
+
+@media screen and (max-width: 450px) {
+    .container-email {
+        width: 290px;
+        height: 300px;
+        position: absolute;
+        top: 50px;
+    }
+    .container-email > div > input {
+        width: 270px;
+        height: 20px;
+        font-size: 12px;
+        margin: 5px;
+    }    
+    .container-email > div > textarea {
+        width: 270px;
+        height: 100px;
+        font-size: 12px;
+        margin: 5px;
+    }   
+}

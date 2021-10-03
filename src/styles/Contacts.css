@@ -1,0 +1,47 @@
+.container-contacts {
+    margin: auto;
+    max-width: 90%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: #161616;
+    position: relative;
+}
+
+@media screen and (max-width: 1150px) {
+    .container-contacts {
+        max-width: 90%;
+        min-height: 88vh;
+    }    
+} 
+
+@media screen and (max-width: 1000px) {
+    .container-contacts {
+        max-width: 90%;
+        min-height: 70vh;
+    }    
+} 
+
+@media screen and (max-width: 750px) {
+    .container-contacts {
+        max-width: 90%;
+        min-height: 68vh;
+    }    
+} 
+
+@media screen and (max-width: 600px) {
+    .container-contacts {
+        max-width: 100%;
+        min-height: 60vh;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .container-contacts {
+        max-width: 100%;
+        min-height: 45vh;
+    }
+}

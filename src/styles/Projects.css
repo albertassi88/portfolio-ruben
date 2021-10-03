@@ -1,0 +1,88 @@
+.container-project {
+    margin: auto;
+    max-width: 90%;
+    height: 60vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F1F1F;
+}
+
+.box-project {
+    width: 90%;
+    min-height: 20vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    color: #94A1B2;
+    margin-top: 20px;
+}
+
+.box-element {
+    width: 100%;
+    text-align: center;
+}
+
+.box-project > .box-element > a > button {
+    background-color: #5527e0;
+    border: 1px solid #5527e0;
+    color: white;
+    border-radius: 20px;
+    font-size: 1.2vw;
+    padding: 2%;
+    margin: 10px;
+}
+
+.box-project > .box-element > a > button:hover {
+    background-color: #7F5AF0;
+}
+
+.box-project > .box-element > h2:nth-child(1) {
+    font-size: 2.2vw;
+    margin: 18px;
+    color: white;
+}
+
+.box-project > .box-element > h2:nth-child(2) {
+    font-size: 1.5vw;
+    margin: 4px;
+}
+
+.box-project > img {
+    width: 35vw
+}
+
+@media screen and (max-width: 1000px) {
+    .container-project {
+        height: 80vw;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .container-project {
+        height: 85vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .box-project {
+        width: 100%;
+    }
+    .container-project {
+        max-width: 100%;
+        height: 85vw;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .box-project {
+        width: 100%;
+    }
+    .container-project {
+        max-width: 100%;
+        height: 85vw;
+    }
+}
