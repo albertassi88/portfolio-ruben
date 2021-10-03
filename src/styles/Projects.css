@@ -94,7 +94,7 @@
         height: 70vh;
     }
     .box-project {
-        width: 96%;
+        width: 99%;
         background-color: #1d1d1d;
     }
     .rec.rec-arrow {
@@ -116,13 +116,7 @@
     } 
     .box-project > img {
         width: 100%;
-        height: 34vw;
     }
 }
 
-@media screen and (max-width: 450px) {
-    .container-project {
-        width: 100%;
-        height: 60vh;
-    }
-}
+
