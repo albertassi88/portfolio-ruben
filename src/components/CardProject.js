@@ -5,7 +5,7 @@ import trybe_wallet from '../images/conversor-project.png';
 import foods_project from '../images/foods_project.png';
 import delivery_project from '../images/delivery-project.png';
 
-const Card = [
+const CardProject = [
     {
         image: star_wars,
         title: 'Star Wars',
@@ -44,4 +44,4 @@ const Card = [
     }      
 ]
 
-export default Card;
+export default CardProject;

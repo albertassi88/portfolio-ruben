@@ -4,7 +4,7 @@ import * as GiIcons from 'react-icons/gi';
 import * as SiIcons from 'react-icons/si';
 import * as FaIcons from 'react-icons/fa';
 
-const SidebarData = [
+const SidebarSkills = [
     {
         title: 'HTML5',
         icon: <FaIcons.FaHtml5 />,
@@ -43,4 +43,4 @@ const SidebarData = [
     },
 ] 
 
-export default SidebarData;
+export default SidebarSkills;

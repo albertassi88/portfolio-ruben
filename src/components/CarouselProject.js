@@ -1,13 +1,13 @@
 import React from 'react';
 import Carousel from 'react-elastic-carousel';
-import Card from '../components/Card';
+import CardProject from '../components/CardProject';
 import '../styles/Projects.css';
 
 function CarouselProject() {
     return (
         <div className="container-project" id="projects">
         <Carousel>
-          {Card.map((element, index) => (
+          {CardProject.map((element, index) => (
             <div className="box-project" key={index}>
               <img src={element.image} alt="foto"/> 
               <div className="box-element">

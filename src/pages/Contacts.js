@@ -1,6 +1,6 @@
 import React from 'react';
-import Footer from '../components/Footer';
-import SendEmail from '../components/SendEmail';
+import FooterContact from '../components/FooterContact';
+import FormSendEmail from '../components/FormSendEmail';
 import TitlePages from '../components/TitlePages';
 import '../styles/Contacts.css';
 
@@ -9,8 +9,8 @@ function Contacts() {
     <section>
       <TitlePages title={'Contato'}/>
       <footer className="container-contacts" id="contacts">
-        <SendEmail />
-        <Footer />      
+        <FormSendEmail />
+        <FooterContact />      
       </footer>
     </section>
   );

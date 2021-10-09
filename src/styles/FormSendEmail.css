@@ -30,6 +30,22 @@
     margin: 5px;
 }
 
+.container-email > div > input.container-button {
+    padding: 1.8%;
+    margin: 5px;
+    width: 100px;
+    height: 48px;
+    background-color: #5527e0;
+    border: 1px solid #5527e0;
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.container-email > div > input.container-button:hover {
+    background-color: #7F5AF0;
+}
+
 .valid-message {
     color: red;
     align-self: center;
@@ -53,6 +69,11 @@
         font-size: 18px;
         margin: 5px;
     } 
+    .container-email > div > input.container-button {
+        width: 75px;
+        height: 36px;
+        font-size: 16px;
+    }
     .valid-message {
         font-size: 2.9vw;
     }     
@@ -74,7 +95,12 @@
         height: 140px;
         font-size: 18px;
         margin: 5px;
-    }    
+    } 
+    .container-email > div > input.container-button {
+        width: 85px;
+        height: 36px;
+        font-size: 16px;
+    }   
     .valid-message {
         font-size: 2.8vw;
     }  
@@ -97,6 +123,11 @@
         font-size: 15px;
         margin: 5px;
     }  
+    .container-email > div > input.container-button {
+        width: 80px;
+        height: 34px;
+        font-size: 16px;
+    }
     .valid-message {
         font-size: 2.5vw;
     }  
@@ -119,8 +150,21 @@
         font-size: 12px;
         margin: 5px;
     }  
+    .container-email > div > input.container-button {
+        width: 70px;
+        height: 25px;
+        font-size: 14px;
+    }
     .valid-message {
         font-size: 3vw;
     }   
+}
+
+@media screen and (max-width: 350px) {
+    .container-email > div > input.container-button {
+        width: 54px;
+        height: 25px;
+        font-size: 11px;
+    }
 }
 

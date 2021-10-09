@@ -1,8 +1,8 @@
 import React from 'react';
-import '../styles/Footer.css';
+import '../styles/FooterContact.css';
 import * as SiIcons from 'react-icons/si';
 
-function Footer() {
+function FooterContact() {
   return (
     <div className="container-footer">        
         <nav className="nav-footer">
@@ -34,4 +34,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export default FooterContact;

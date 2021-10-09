@@ -1,5 +1,5 @@
 import React from 'react';
-import NavBar from '../components/NavBar';
+import NavBarHome from '../components/NavBarHome';
 import MinBurgerNavBar from '../components/MinBurgerNavBar';
 import MainHome from '../components/MainHome';
 
@@ -7,7 +7,7 @@ function Home() {
   return (
     <>
       <MinBurgerNavBar />
-      <NavBar />     
+      <NavBarHome />     
       <MainHome />
     </>
   );

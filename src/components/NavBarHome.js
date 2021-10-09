@@ -1,7 +1,7 @@
 import React from 'react';
-import '../styles/NavBar.css';
+import '../styles/NavBarHome.css';
 
-function NavBar() {
+function NavBarHome() {
   return (   
     <header>
       <nav>
@@ -15,4 +15,4 @@ function NavBar() {
   );
 }
 
-export default NavBar;
+export default NavBarHome;

@@ -1,5 +1,5 @@
 import React from 'react';
-import SidebarData from '../components/SidebarData';
+import SidebarSkills from '../components/SidebarSkills';
 import TitlePages from '../components/TitlePages';
 import '../styles/Skills.css';
 
@@ -9,7 +9,7 @@ function Skills() {
       <TitlePages title={'Habilidades'}/>
       <article className="container_skills" id="skills">
           <div className="skills">
-              {SidebarData.map((skill, index) => (
+              {SidebarSkills.map((skill, index) => (
                 <div className="skill" key={index}>
                   {skill.icon}
                   <span>{skill.title}</span>
