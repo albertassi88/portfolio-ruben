@@ -13,6 +13,6 @@ Para os testes do formulário de email, utilizei:
 
 Instalação:
 
-Para instalação, clone o repositório e faça o npm install para as dependencias. <br>
+Para instalação, clone o repositório e faça o npm install para as dependências. <br>
 
-O link do portfolio é: https://portfolio-ruben.vercel.app/
+O link do portfólio é: https://portfolio-ruben.vercel.app/
