@@ -7,6 +7,7 @@ describe('test the FormSendEmail component', () => {
     beforeEach(() => {
         render(<FormSendEmail />);
     });
+
     test('write the name in the input', () => {
         const fieldNome = screen.getByTestId('form-field-name');
         fireEvent.change(fieldNome, {target: {value: 'Ruben'}});
@@ -82,7 +83,7 @@ describe('test the FormSendEmail component', () => {
         fireEvent.click(screen.getByTestId('form-button-send')); 
         await waitFor(() => 
             screen.getByText('Email enviado com sucesso!'),
-            {timeout: 2000}
+            {timeout: 3000}
         ); 
     });
 });

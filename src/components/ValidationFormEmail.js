@@ -1,5 +1,6 @@
 import SchemaFormEmail from '../schema/SchemaFormEmail';
 import emailjs from 'emailjs-com';
+import RefreshValidationFormEmail from '../components/RefreshValidationFormEmail';
 
 async function ValidationFormEmail(event, name, email, message, setValidMessage) {
     event.preventDefault();      
@@ -16,6 +17,7 @@ async function ValidationFormEmail(event, name, email, message, setValidMessage)
             setValidMessage('Email enviado com sucesso!');
             document.querySelector('.valid-message').style.color = 'green';
             event.target.reset();
+            RefreshValidationFormEmail();            
         });            
     }else {
         SchemaFormEmail.validate({name, email, message}).catch((err) => {
