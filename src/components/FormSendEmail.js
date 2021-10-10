@@ -41,7 +41,10 @@ function FormSendEmail() {
                     type='submit'
                     value='Enviar'
                 />
-                <span className="valid-message">{validMessage}</span>
+                <span 
+                    data-testid="message-valid"
+                    className="valid-message"
+                >{validMessage}</span>
            </div>
        </form>
     )

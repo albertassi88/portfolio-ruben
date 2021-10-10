@@ -2,14 +2,11 @@ import SchemaFormEmail from '../schema/SchemaFormEmail';
 import emailjs from 'emailjs-com';
 
 async function ValidationFormEmail(event, name, email, message, setValidMessage) {
-    event.preventDefault();        
-    SchemaFormEmail.validate({name, email, message}).catch((err) => {
-        setValidMessage(err.errors[0]); 
-    });
-    
+    event.preventDefault();      
+
     const formValid = await SchemaFormEmail.isValid({name, email, message});
     if (formValid) {
-        emailjs.sendForm(
+        return emailjs.sendForm(
             'gmailMessage', 
             'template_cozxomj', 
             event.target, 
@@ -20,6 +17,10 @@ async function ValidationFormEmail(event, name, email, message, setValidMessage)
             document.querySelector('.valid-message').style.color = 'green';
             event.target.reset();
         });            
+    }else {
+        SchemaFormEmail.validate({name, email, message}).catch((err) => {
+            return setValidMessage(err.errors[0]); 
+        });
     }
 }
 
