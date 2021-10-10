@@ -4,8 +4,10 @@ __________________________________
 Esse portfólio foi desenvolvido em React JS, utilizei o método Mobile First para desenvolvê-lo junto com as bibliotecas:
 - React Responsive Carousel 
 - Yup
-- EmailJS.
+- EmailJS 
+
 Para os testes do formulário de email, utilizei: 
+
 - React Testing Library
 - Jest
 
