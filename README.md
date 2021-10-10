@@ -1,9 +1,16 @@
-## Esse portfólio foi desenvolvido em React, utilizei o método Mobile First para desenvolvê-lo junto com as bibliotecas React Responsive Carousel, Yup e EmailJS.
+# Portfólio Ruben Albertassi
+__________________________________
 
-## Para rodar o projeto em sua máquina:
-## Instalação do npm
-### npm install
-## Como rodar o projeto ?
-### npm start
+Esse portfólio foi desenvolvido em React JS, utilizei o método Mobile First para desenvolvê-lo junto com as bibliotecas:
+- React Responsive Carousel 
+- Yup
+- EmailJS.
+Para os testes do formulário de email, utilizei: 
+- React Testing Library
+- Jest
 
-### O link do site é: https://portfolio-ruben.vercel.app/
+Instalação:
+
+Para instalação, clone o repositório e faça o npm install para as dependencias. <br>
+
+O link do portfolio é: https://portfolio-ruben.vercel.app/
