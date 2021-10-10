@@ -10,7 +10,7 @@ function Skills() {
       <article className="container_skills" id="skills">
           <div className="skills">
               {SidebarSkills.map((skill, index) => (
-                <div className="skill" key={index}>
+                <div data-aos="flip-left" className="skill" key={index}>
                   {skill.icon}
                   <span>{skill.title}</span>
                 </div>

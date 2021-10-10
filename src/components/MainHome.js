@@ -1,15 +1,15 @@
 import React from 'react';
 import {SiWhatsapp} from 'react-icons/si';
 import photoHome from '../images/photoHome.jpg';
-import '../styles/Home.css';
+import '../styles/MainHome.css';
 
 function MainHome() {
     return (
         <main>
         <div data-aos="fade-down" className="box-main" id="home">
           <img className="foto_home" src={photoHome} alt="minha foto"></img>
-          <h2>Olá! 
-            <br/>Eu sou<span className="home_title_color">Ruben Albertassi</span>
+          <h2>Olá, Eu sou
+            <br/><span className="home_title_color">Ruben Albertassi</span>
             <br/>Desenvolvedor Web Full Stack
           </h2>
         </div>

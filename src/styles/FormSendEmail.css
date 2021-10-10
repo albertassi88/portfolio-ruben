@@ -17,7 +17,7 @@
 }
 
 .container-email > div > input {
-    width: 550px;
+    width: 850px;
     height: 40px;
     font-size: 25px;
     margin: 5px;
@@ -25,8 +25,8 @@
 
 .container-email > div > textarea {
     font-size: 25px;
-    width: 550px;
-    height: 160px;
+    width: 850px;
+    height: 260px;
     margin: 5px;
 }
 
@@ -34,7 +34,7 @@
     padding: 1.8%;
     margin: 5px;
     width: 100px;
-    height: 48px;
+    height: 55px;
     background-color: #5527e0;
     border: 1px solid #5527e0;
     color: white;

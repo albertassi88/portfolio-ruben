@@ -9,7 +9,7 @@ const CardProject = [
     {
         image: star_wars,
         title: 'Star Wars',
-        description: 'Criação de site feito no curso da Trybe, nesse projeto é possível localizar e filtrar vários planetas da saga Star Wars, nesse projeto foi usado a Api do Star Wars.',   
+        description: 'Criação de um site para pesquisar, filtrar e estudar sobre os planetas da saga Star Wars, nesse projeto foi usado a Api do Star Wars para localizar os planetas.',   
         site: 'https://github.com/albertassi88/project-star-wars/'     
     },
     {
@@ -27,7 +27,7 @@ const CardProject = [
     {
         image: trybe_wallet,
         title: 'Trybe Wallet',
-        description: 'Criação de um site feito no curso da Trybe, de uma carteira de controle de gastos com conversor de moedas utilizando Api economia.awesomeapi.', 
+        description: 'Criação de um site para simular uma carteira de controle de gastos com conversor de moedas utilizando Api economia.awesomeapi.', 
         site: 'https://github.com/albertassi88/project-trybe-wallet'
     },
     {
