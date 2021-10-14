@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { BrowserRouter } from 'react-router-dom';
+import TodoProvider from './context/TodoProvider';
 import Home from './pages/Home';
 import About from './pages/About';
 import Skills from './pages/Skills';
@@ -12,13 +13,15 @@ function App() {
   useEffect(() => { Aos.init({ duration: 2000 }); }, []);
 
   return (
-    <BrowserRouter>
-      <Home />
-      <About />
-      <Skills />
-      <Projects />
-      <Contacts />
-    </BrowserRouter>
+    <TodoProvider>
+      <BrowserRouter>
+        <Home />
+        <About />
+        <Skills />
+        <Projects />
+        <Contacts />
+      </BrowserRouter>
+    </TodoProvider>
   );
 }
 
