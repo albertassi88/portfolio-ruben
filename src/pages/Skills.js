@@ -1,5 +1,5 @@
 import React from "react";
-import SidebarSkills from "../data/SidebarSkills";
+import SidebarSkills from "../components/SidebarSkills";
 import TitlePages from "../components/TitlePages";
 import "../styles/Skills.css";
 
