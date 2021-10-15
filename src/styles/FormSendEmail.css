@@ -21,6 +21,14 @@
     height: 40px;
     font-size: 25px;
     margin: 5px;
+    border: 1px solid #2CB67D;
+    background-color: #161616;
+    color: white;
+    padding-left: 15px;
+}
+
+input::placeholder {
+    color: #5527e0;
 }
 
 .container-email > div > textarea {
@@ -28,6 +36,14 @@
     width: 850px;
     height: 260px;
     margin: 5px;
+    border: 1px solid #2CB67D;
+    background-color: #161616;
+    color: white;
+    padding-left: 15px;
+}
+
+textarea::placeholder {
+    color: #5527e0;
 }
 
 .container-email > div > input.container-button {
