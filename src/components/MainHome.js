@@ -7,8 +7,13 @@ function MainHome() {
   return (
     <main>
       <div data-aos="fade-down" className="box-main" id="home">
-        <img className="foto_home" src={photoHome} alt="minha foto"></img>
-        <h2>Olá, Eu sou
+        <img 
+          className="foto_home" 
+          src={photoHome} 
+          alt="minha foto" 
+        />
+        <h2>
+          Olá, Eu sou
           <br/><span className="home_title_color">Ruben Albertassi</span>
           <br/>Desenvolvedor Web Full Stack
         </h2>

@@ -6,13 +6,13 @@ import "../styles/Contacts.css";
 
 function Contacts() {
   return (
-    <section>
+    <>
       <TitlePages title={"Contato"}/>
       <footer className="container-contacts" id="contacts">
         <FormSendEmail />
         <FooterContact />      
       </footer>
-    </section>
+    </>
   );
 }
 

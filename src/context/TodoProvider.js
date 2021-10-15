@@ -8,8 +8,8 @@ function TodoProvider({ children }) {
   const [loading, setLoading] = useState("Carregando");
 
   useEffect(() => {
-    ApiProjects().then(response => {
-      setApiCardProject(response.projects);
+    ApiProjects().then(({projects}) => {
+      setApiCardProject(projects);
       setLoading("");
     }).catch(() => {
       alert("Ocorreu um erro ao buscar os items");

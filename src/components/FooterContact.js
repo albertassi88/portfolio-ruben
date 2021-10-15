@@ -1,6 +1,6 @@
 import React from "react";
-import "../styles/FooterContact.css";
 import * as SiIcons from "react-icons/si";
+import "../styles/FooterContact.css";
 
 function FooterContact() {
   return (
