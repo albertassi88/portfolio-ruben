@@ -1,7 +1,7 @@
-import React from 'react';
-import NavBarHome from '../components/NavBarHome';
-import MinBurgerNavBar from '../components/MinBurgerNavBar';
-import MainHome from '../components/MainHome';
+import React from "react";
+import NavBarHome from "../components/NavBarHome";
+import MinBurgerNavBar from "../components/MinBurgerNavBar";
+import MainHome from "../components/MainHome";
 
 function Home() {
   return (

@@ -1,6 +1,6 @@
-import React from 'react';
-import CarouselProject from '../components/CarouselProject';
-import TitlePages from '../components/TitlePages';
+import React from "react";
+import CarouselProject from "../components/CarouselProject";
+import TitlePages from "../components/TitlePages";
 
 function Projects() {
   return (

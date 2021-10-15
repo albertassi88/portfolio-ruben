@@ -1,11 +1,11 @@
-import React from 'react';
-import ArticleAbout from '../components/ArticleAbout';
-import TitlePages from '../components/TitlePages';
+import React from "react";
+import ArticleAbout from "../components/ArticleAbout";
+import TitlePages from "../components/TitlePages";
 
 function About() {
   return (
     <section>
-      <TitlePages title={'Sobre'}/>
+      <TitlePages title={"Sobre"}/>
       <ArticleAbout />
     </section>
   );

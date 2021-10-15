@@ -1,7 +1,7 @@
-import React from 'react';
-import {SiWhatsapp} from 'react-icons/si';
-import photoHome from '../images/photoHome.jpg';
-import '../styles/MainHome.css';
+import React from "react";
+import {SiWhatsapp} from "react-icons/si";
+import photoHome from "../images/photoHome.jpg";
+import "../styles/MainHome.css";
 
 function MainHome() {
   return (

@@ -1,13 +1,13 @@
-import React from 'react';
-import '../styles/Loading.css';
+import React from "react";
+import "../styles/Loading.css";
 
 function Loading() {
-    return (
-      <div class="center">
-        <div class="text">Carregando....</div>
-        <div class="ring"></div>
-      </div>
-    );  
+  return (
+    <div className="center">
+      <div className="text">Carregando....</div>
+      <div className="ring"></div>
+    </div>
+  );  
 }
 
 export default Loading;
