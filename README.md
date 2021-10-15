@@ -2,6 +2,7 @@
 __________________________________
 
 Esse portfólio foi desenvolvido em React JS, utilizei a API que criei no gitconnected.com para renderizar alguns dos meus projetos e utilizei o método Mobile First para desenvolvê-lo junto com as bibliotecas:
+
 - React Responsive Carousel 
 - Yup
 - EmailJS 

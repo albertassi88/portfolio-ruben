@@ -19,6 +19,7 @@ function FormSendEmail() {
           type="text" 
           placeholder="Nome" 
           name="name" 
+          value={name}
           onChange={({target}) => setName(target.value)}
         />  
         <input 
@@ -26,6 +27,7 @@ function FormSendEmail() {
           type="email" 
           placeholder="Email" 
           name="email" 
+          value={email}
           onChange={({target}) => setEmail(target.value)}
         />  
         <textarea 
@@ -33,6 +35,7 @@ function FormSendEmail() {
           type="text" 
           placeholder="Digite sua mensagem" 
           name="message" 
+          value={message}
           onChange={({target}) => setMessage(target.value)}
         />                    
         <input 

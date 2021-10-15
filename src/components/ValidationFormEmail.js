@@ -19,7 +19,7 @@ async function ValidationFormEmail(event, name, email, message, setValidMessage)
         event.target.reset();
         RefreshValidationFormEmail();            
       });            
-  }else {
+  } else {
     SchemaFormEmail.validate({name, email, message}).catch((err) => {
       return setValidMessage(err.errors[0]); 
     });
