@@ -1,11 +1,7 @@
 import React, { useEffect } from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import TodoProvider from './context/TodoProvider';
-import Home from './pages/Home';
-import About from './pages/About';
-import Skills from './pages/Skills';
-import Projects from './pages/Projects';
-import Contacts from './pages/Contacts';
+import { Home, About, Contacts, Projects, Skills } from './pages';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
