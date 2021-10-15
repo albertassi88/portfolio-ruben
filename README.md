@@ -6,6 +6,7 @@ Esse portfólio foi desenvolvido em React JS, utilizei a API que criei no gitcon
 - React Responsive Carousel 
 - Yup
 - EmailJS 
+- Aos
 
 Para os testes do formulário de email, utilizei: 
 
