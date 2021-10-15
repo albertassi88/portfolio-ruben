@@ -1,15 +1,17 @@
 import React, { useContext } from 'react';
 import Carousel from 'react-elastic-carousel';
 import TodoContext from '../context/TodoContext';
+import Loading from '../components/Loading';
 import '../styles/Projects.css';
 
 function CarouselProject() {
-  const { apiCardProject } = useContext(TodoContext); 
+  const { apiCardProject, loading } = useContext(TodoContext); 
 
   return (
     <div className="container-project" id="projects">
       <Carousel>
-        {apiCardProject.map(({displayName, description, githubUrl, images}, index) => {
+        {loading ? <Loading /> 
+        : apiCardProject.map(({displayName, description, githubUrl, images}, index) => {
           const image = images[0].resolutions.mobile.url;
           return (
             <div className="box-project" key={index}>

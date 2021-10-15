@@ -4,10 +4,12 @@ import ApiProjects from '../services/ApiProjects';
 
 function TodoProvider({ children }) {
   const [apiCardProject, setApiCardProject] = useState([]);
+  const [loading, setLoading] = useState('Carregando');
 
   useEffect(() => {
     ApiProjects().then(response => {
       setApiCardProject(response.projects);
+      setLoading('');
     }).catch(() => {
       alert("Ocorreu um erro ao buscar os items");
     });
@@ -16,6 +18,7 @@ function TodoProvider({ children }) {
   const context = {
     setApiCardProject,
     apiCardProject,
+    loading,
   };
 
   return (
